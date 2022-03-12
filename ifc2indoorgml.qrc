@@ -1,0 +1,6 @@
+<RCC>
+  <qresource>
+	<file>logo.png</file>
+    <file>about_IFC_to_IndoorGML.html</file>
+  </qresource>
+</RCC>
