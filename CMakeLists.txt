@@ -47,7 +47,7 @@ find_package(Qt5 QUIET COMPONENTS Script OpenGL Svg)
 #############################################################################
 ### IFC++, Carve (comes with IFC++) and OpenSceneGraph (OSG)
 ############################################################################
-set(CMAKE_FIND_DEBUG_MODE TRUE)
+#set(CMAKE_FIND_DEBUG_MODE TRUE)
 
 #find_path(IFCPP_INCLUDE_DIRS)
 set(IFCPP_SOURCE_DIR $ENV{IFCPP_DIR})
@@ -86,7 +86,7 @@ ENDIF()
 
 find_package(OpenSceneGraph COMPONENTS osg osgUtil osgText)
 
-set(CMAKE_FIND_DEBUG_MODE FALSE)
+#set(CMAKE_FIND_DEBUG_MODE FALSE)
 
 set(IFCPP_FOUND TRUE)
 
