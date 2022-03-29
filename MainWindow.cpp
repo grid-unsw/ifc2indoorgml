@@ -1066,6 +1066,11 @@ void MainWindow::on_actionGenerate_IndoorGML_triggered()
         msgBox.setText("No Edge could be reconstructed. There may be an issue with the IfcRelSpaceBoundary relationships in your IFC file.");
         msgBox.exec();
     }
+    else{
+        QMessageBox msgBox;
+        msgBox.setText("IndoorGML data successfully generated from the LCC.");
+        msgBox.exec();
+    }
 
     statusBar ()->showMessage (QString ("Generated IndoorGML Data."),
                                    DELAY_STATUSMSG);
